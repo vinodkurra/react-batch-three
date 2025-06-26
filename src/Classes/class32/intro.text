@@ -1,0 +1,54 @@
+VIRUAL DOM : 
+
+
+REAL DOM  : home.html  -> this is will re render whole app 
+
+VIRTUAL DOM  : 
+
+initial render -> 
+
+state & props change ->
+
+
+reconciliation ->  diffing algorithm
+
+
+VIRTUAL DOM                       REAL DOM
+
+Speed                              slow
+efficiency                         not
+performace 
+
+
+
+COMPONENTS : any UI is a component
+
+
+button -> 
+Header :
+Footer
+
+
+Class based components : 
+
+up to react 16 version : state and life cycles
+
+
+after 16 hooks 
+
+
+
+functional based components :  
+
+
+
+
+state and props
+
+
+
+
+
+
+ 
+

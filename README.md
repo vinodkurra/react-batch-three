@@ -1,3 +1,27 @@
+install node
+install vs code
+
+Command to create app :
+
+npx create-react-app app-name
+
+    node-modules -> code related to install packages and its dependencies
+
+    public
+
+react-scripts : ->
+
+index.html (in public/) index.js (in src/)
+
+---
+
+<div id="root"></div>     <--+   ReactDOM.createRoot(
+                               |     document.getElementById('root')
+                               | ).render(<App />);
+                               +--> Injects React component tree
+
+npm install :-> will install all node modules with in node modules folder
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).

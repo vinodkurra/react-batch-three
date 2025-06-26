@@ -1,0 +1,40 @@
+Props : props are properties
+
+props can be passes from parent to child.
+
+ <img src="" alt="" />
+ <input  value="" onChange={} />
+
+
+ const callMe = (a, b, callBack) => {
+    callBack(a +b)
+     return a +b
+ }
+
+const callBack = (value) =>{
+    retur value;
+}
+
+ callMe(5, 8, callBack)
+
+
+
+ parent to child props sending 
+
+ child to parent props : 
+
+ 1) call backs 
+
+
+ useContext 
+
+ component 1
+
+ component 2
+
+ component 3
+
+
+ 
+
+ 

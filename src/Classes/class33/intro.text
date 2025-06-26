@@ -1,0 +1,43 @@
+State : 
+
+js object : 
+{
+    key : value 
+}
+
+
+var let const 
+
+
+name : "Vinod";
+
+
+setName("Vinodh Kumar");
+
+
+
+how to use state;
+
+
+class component :
+
+functional component : 
+
+after  version of react 16  -> hooks
+
+useState
+
+
+
+JSX  : java script  + x HTML -> XML
+
+React Scripts :  JSX to JS ( Babel compiler )
+
+browser : JS 
+
+
+1) {name} 
+2) we should wrap multiple elements in a root element or empty fragments || empty tag
+3) start  and end tag + img, input   self closing tags <img  />    <input  />
+4) html onclick, onchange,  -> onClick , onChange
+5) class -> className and for -> htmlFor 

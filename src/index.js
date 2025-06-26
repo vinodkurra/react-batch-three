@@ -1,13 +1,17 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./index.css";
+import App from "./App";
+import reportWebVitals from "./reportWebVitals";
+import MyComponent from "./Components/classBasedComponent";
+import MyStateComponent from "./Components/State/classComponent";
+import MyStateFunctionalComponent from "./Components/State/functionalComponent";
+import Parent from "./Components/Props/parent";
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <App />
+    <Parent />
   </React.StrictMode>
 );
 

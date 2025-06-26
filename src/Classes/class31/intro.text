@@ -1,0 +1,17 @@
+node install : 
+
+check versions 
+
+node -v
+npm --v
+
+visual studio code
+
+git ->
+
+CREATING REACT APP
+
+npx create-react-app app-name
+
+
+
