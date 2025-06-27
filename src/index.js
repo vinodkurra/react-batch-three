@@ -24,7 +24,7 @@ root.render(
         padding: `50px`,
       }}
     >
-      <ValuesInArray />
+      <EmptyArray />
     </div>
   </React.StrictMode>
 );
