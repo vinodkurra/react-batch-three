@@ -1,0 +1,30 @@
+React HOOKS :  Functional components
+
+
+
+(1) useState :=> This will manage a components state value.
+
+const [ value, setValue] = useState(initialValue);
+
+
+
+
+(2) useEffect : This will lets you perform side effects
+
+
+useEffect(()=>{
+    // side effect logic
+}, [dependencies])
+
+  a) No array         ->    Runs after every render    :  0.5%
+  b) [] empty array   ->    Runs only once after initial render  -> 40% :  API calls, DOM manipulation
+  c) [a, b]           ->    Runs only when one or more dependencies onChange -> 50%
+
+
+
+  return method in useEffect : used for clean up  : 10%
+
+
+
+
+

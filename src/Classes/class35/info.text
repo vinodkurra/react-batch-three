@@ -1,0 +1,21 @@
+Life cycle methods in Class Components
+
+how these are replaced with hooks in functional components.
+
+
+onClick || onChange
+
+
+component 
+
+birth -> death
+
+
+
+HOOKS : 
+
+
+useState :-> replaces  constructor + this.state;
+
+useEffect :=>  replaces componentDidMount, componentDidUpdate, componentWillUnmount;
+

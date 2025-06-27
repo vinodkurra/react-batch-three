@@ -7,11 +7,25 @@ import MyComponent from "./Components/classBasedComponent";
 import MyStateComponent from "./Components/State/classComponent";
 import MyStateFunctionalComponent from "./Components/State/functionalComponent";
 import Parent from "./Components/Props/parent";
+import LifeCycleMethodsExample from "./Components/lifeCycleMethods/class";
+import FunctionalComponentWithHooks from "./Components/lifeCycleMethods/function";
+import EmptyArray from "./Components/Hooks/useEffect/emptyArray";
+import NoArray from "./Components/Hooks/useEffect/noArray";
+import ValuesInArray from "./Components/Hooks/useEffect/ValuesInArray";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
-    <Parent />
+    <div
+      style={{
+        display: "flex",
+        alignItems: "center",
+        justifyContent: "center",
+        padding: `50px`,
+      }}
+    >
+      <ValuesInArray />
+    </div>
   </React.StrictMode>
 );
 
