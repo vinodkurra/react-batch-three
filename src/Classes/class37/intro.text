@@ -1,0 +1,61 @@
+1)useCallBack
+
+it will memoize the function and preventing it from being re-created on every re render, unless its dependencies changed
+
+
+useCallBack(()=>{
+
+}, [])
+
+
+
+2)useMemo
+
+useMemo memoizes the result of a computation, recalculating only if its dependencies change:
+
+const memoizedValue = useMemo(() => computeExpensiveValue(a, b), [a, b]);
+
+
+
+3)useRef
+
+useRef is a React hook that:
+
+Stores a mutable reference that persists across renders.
+
+Can reference DOM elements (like input focus).
+
+Can store values without causing re-renders.
+
+
+
+
+
+id -> document.getElementById("h1") 
+
+
+createContext && useContext
+
+
+
+
+
+form -> 
+
+
+
+todo app.
+
+const [user, setUser] = useState("");
+const [users, setUsers] = useState([]);
+
+
+input : ADD  
+
+Table or list
+
+one X  Edit
+
+two
+
+three

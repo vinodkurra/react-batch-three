@@ -6,12 +6,13 @@ import reportWebVitals from "./reportWebVitals";
 import MyComponent from "./Components/classBasedComponent";
 import MyStateComponent from "./Components/State/classComponent";
 import MyStateFunctionalComponent from "./Components/State/functionalComponent";
-import Parent from "./Components/Props/parent";
 import LifeCycleMethodsExample from "./Components/lifeCycleMethods/class";
 import FunctionalComponentWithHooks from "./Components/lifeCycleMethods/function";
 import EmptyArray from "./Components/Hooks/useEffect/emptyArray";
 import NoArray from "./Components/Hooks/useEffect/noArray";
 import ValuesInArray from "./Components/Hooks/useEffect/ValuesInArray";
+import Parent from "./Components/Hooks/useCallback/Parent";
+import InputRef from "./Components/Hooks/useRef";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -24,7 +25,7 @@ root.render(
         padding: `50px`,
       }}
     >
-      <EmptyArray />
+      <InputRef />
     </div>
   </React.StrictMode>
 );
