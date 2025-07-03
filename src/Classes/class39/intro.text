@@ -1,0 +1,11 @@
+Todo : 
+
+edit and update:
+
+
+Step 1) edit button, onclick passing two params. and setting selected value into input.
+step 2) changing button label to Update based on edit index state
+step 3) on update button click calling different function to handle update
+step 4) updating the value in array using its index and new value.
+step 5) empty the input
+

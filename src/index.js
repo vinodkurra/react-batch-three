@@ -13,6 +13,8 @@ import NoArray from "./Components/Hooks/useEffect/noArray";
 import ValuesInArray from "./Components/Hooks/useEffect/ValuesInArray";
 import Parent from "./Components/Hooks/useCallback/Parent";
 import InputRef from "./Components/Hooks/useRef";
+import Todo from "./Components/TODO";
+import ApiCall from "./Components/API_Call";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -25,7 +27,7 @@ root.render(
         padding: `50px`,
       }}
     >
-      <InputRef />
+      <ApiCall />
     </div>
   </React.StrictMode>
 );
