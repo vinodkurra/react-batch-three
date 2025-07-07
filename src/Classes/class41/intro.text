@@ -1,0 +1,54 @@
+Context. 
+
+parent to child  : we can pass from parent to child through props.
+
+child to parent : through call back function
+
+
+home
+
+account
+
+dashboard
+
+welcome
+
+
+prop drilling :
+
+
+parent : child : i-child : ii-child : iii-child
+
+
+Redux : third party library -> [   ]  browser -> local storage / session storage
+
+
+createContext,  [    ]   ,   useContext   react 16
+
+
+1) two individual components - no relation
+
+2) counter provider -> functional component -> this will maintian all states and functions that should share between different components.
+
+3) useCounter -> using useContext
+
+4) wrapping with counter provider : so that it will provider the data between its children.
+
+
+
+
+
+
+
+git push : 70% below   git link 
+
+
+netlify 
+
+
+
+
+
+
+
+
