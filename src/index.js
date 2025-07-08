@@ -13,13 +13,20 @@ import reportWebVitals from "./reportWebVitals";
 // import ValuesInArray from "./Components/Hooks/useEffect/ValuesInArray";
 // import Parent from "./Components/Hooks/useCallback/Parent";
 // import InputRef from "./Components/Hooks/useRef";
-import Todo from "./Components/TODO";
+// import Todo from "./Components/TODO";
 // import ApiCall from "./Components/API_Call";
 import AppRoutes from "./Components/Routing/appRoutes";
 import Counter from "./Components/Context_Counter/counter";
 import { CounterProvider } from "./Components/Context_Counter/context/counterProvider";
 import ViewCounter from "./Components/Context_Counter/viewCounter";
 import Test from "./Components/Context_Counter/test";
+
+import Todo from "./Components/ContextTodo";
+import Users from "./Components/ContextTodo/users";
+import { TodoProvider } from "./Components/ContextTodo/context/TodoProvider";
+
+import ApiCall from "./Components/Context_API_Call";
+import { UserProvider } from "./Components/Context_API_Call/UsersProvider";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -32,14 +39,20 @@ root.render(
         padding: `50px`,
       }}
     >
-      <CounterProvider>
+      <UserProvider>
+        <ApiCall />
+      </UserProvider>
+
+      {/* <CounterProvider>
         <Counter />
         <ViewCounter />
       </CounterProvider>
 
-      <Test />
-
-      {/* <Todo /> */}
+      <Test /> */}
+      {/* <TodoProvider>
+        <Todo />
+        <Users />
+      </TodoProvider> */}
     </div>
   </React.StrictMode>
 );

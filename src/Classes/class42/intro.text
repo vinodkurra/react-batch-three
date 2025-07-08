@@ -1,0 +1,6 @@
+Context : with out local state if that is passing as props to any of child
+
+API calls context to avoid duplicate code with in components
+
+
+
