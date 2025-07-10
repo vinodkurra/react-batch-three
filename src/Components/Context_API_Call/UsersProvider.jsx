@@ -1,9 +1,18 @@
-import { createContext, useEffect, useState } from "react";
+import { createContext, useState } from "react";
+
+import useFetch from "../Hooks/CustomHooks/useFetch";
 
 export const UsersContext = createContext(null);
 
 export const UserProvider = ({ children }) => {
   const [data, setData] = useState([]);
+
+  const {
+    GET: getUserData,
+    data: getUserData_data,
+    loading: getUserData_loading,
+    error: getUserData_error,
+  } = useFetch("posts/tags");
 
   const getData = async () => {
     try {
@@ -17,13 +26,23 @@ export const UserProvider = ({ children }) => {
     }
   };
 
+  console.log(
+    "data:",
+    getUserData_data,
+    "loading:",
+    getUserData_loading,
+    " error:",
+    getUserData_error
+  );
+
   //   useEffect(() => {
   //     getData();
   //   }, []);
 
   const value = {
-    data,
+    getUserData_data,
     getData,
+    getUserData,
   };
 
   return (

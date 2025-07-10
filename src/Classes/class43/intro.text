@@ -1,0 +1,33 @@
+login 
+
+register
+
+4 - 5 
+
+Get, Post, Put, Delete
+
+Frontend  -> backend  ->   Data base
+
+register -> save -> post API -> Backend -> DB table -> insert this record -> pending approval 
+
+login -> login API -> backend -> 
+
+
+Admin
+
+
+-> GET API -> users list -> approve -> PUT API  -> delete -> delete API
+
+
+
+axios -> 
+fetch -> 
+
+
+
+
+
+
+
+
+
